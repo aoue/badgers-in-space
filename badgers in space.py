@@ -16,7 +16,7 @@ white = (255,255,255)
 
 ##music*************
 track2 = pygame.mixer.music.load('C:\\Users\\Aaja\\Desktop\\code\\programs\\badgers in space\\music\\track2.mp3')
-sacrificeSong = pygame.mixer.music.load('C:\\Users\\Aaja\\Desktop\\Slayer game stuff\\music\\sacrificeSong.mp3')
+sacrificeSong = pygame.mixer.music.load('C:\\Users\\Aaja\\Desktop\\code\\programs\\badgers in space\\music\\sacrificeSong.mp3')
 pygame.mixer.music.play(-1)
 musicCounter = 1
 whichSong = 1
@@ -54,7 +54,7 @@ class Player(object):
         self.rect.y = self.y
 
         
-player = Player(200,400,'C:\\Users\\Aaja\\Desktop\\Slayer game stuff\\images\\player.png')  
+player = Player(200,400,'C:\\Users\\Aaja\\Desktop\\code\\programs\\badgers in space\\images\\player.png')  
 
 
 
@@ -106,7 +106,7 @@ while 1:
                     pygame.mixer.music.play(-1)
                     whichSong = whichSong - 1
                 else:
-                    sacrificeSong = pygame.mixer.music.load('C:\\Users\\Aaja\\Desktop\\Slayer game stuff\\music\\sacrificeSong.mp3')
+                    sacrificeSong = pygame.mixer.music.load('C:\\Users\\Aaja\\Desktop\\code\\programs\\badgers in space\\music\\sacrificeSong.mp3')
                     pygame.mixer.music.play(-1)
                     whichSong = whichSong + 1
 
