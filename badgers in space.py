@@ -9,7 +9,7 @@ import math
 pygame.init()
 pygame.display.set_caption('Badgers in space')
 screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
-background = pygame.image.load('C:\\Users\\Aaja\\Desktop\\code\\programs\\badgers in space\\images\\space.jpg')
+background = pygame.image.load('C:\\Users\\Aaja\\Desktop\\code\\programs\\badgers in space\\images\\space.jpg') #Years later, I now see this won't work on computer's without the exact pathing. At least it shows willing.
 font = pygame.font.SysFont('Calibri', 25)
 keys = [False, False, False, False]
 white = (255,255,255)
